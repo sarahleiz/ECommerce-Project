@@ -1,0 +1,462 @@
+/* styles.css */
+
+body {
+  font-family: "Roboto", serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #001f3f; /* Navy */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  text-align: right;
+  background-color: #001f3f; /* Navy */
+  padding: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.search-container {
+  padding: 20px 0;
+}
+
+#productsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-container {
+  border: 1px solid #001f3f; /* Navy */
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container:hover {
+  transform: scale(1.03);
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-details {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+/* New styles for title, product name, and description */
+h2 {
+  color: #001f3f; /* Navy */
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Your existing styles */
+.product-name {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-description {
+  color: #555;
+}
+
+/* New styles for quantity selector */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin-top: 10px;
+}
+
+.quantity-input {
+  width: 60px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.quantity-btn {
+  cursor: pointer;
+  background-color: #001f3f; /* Navy */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.table-container {
+  margin: 20px auto; /* Center the table */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #001f3f; /* Navy */
+  color: #fff;
+}
+
+.cart-item-image {
+  width: 50px !important; /* Set a fixed width for uniformity */
+  height: 50px !important; /* Set a fixed height for uniformity */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.btn-light svg.bi-cart2 {
+  border: none;
+}
+
+/* Add this to styles.css */
+.flash-message {
+  text-align: center;
+  background-color: #f8d7da; /* Bootstrap's alert-danger color */
+  color: #721c24; /* Bootstrap's alert-danger text color */
+  padding: 10px;
+  margin-bottom: 20px;
+  display: none; /* Hide initially */
+}
+
+
+/* Add this style in your styles.css */
+#slideshow {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px; /* Adjust as needed */
+  text-align: center;
+}
+
+#scrollingGifs {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap; /* Prevent wrapping */
+  animation: scrollGifs 40s linear infinite;
+  text-align: center;
+}
+
+#scrollingGifs img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+@keyframes scrollGifs {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%); /* Move the GIFs to the left by the viewport width */
+  }
+}
+
+/* Add this to styles.css */
+.product-container {
+  /* ... existing styles ... */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Adjust as needed */
+  height: 100%; /* Ensure the product container takes full height */
+}
+
+.product-image {
+  /* ... existing styles ... */
+  margin-bottom: 10px; /* Add space below the image */
+}
+
+.product-details {
+  /* ... existing styles ... */
+  text-align: center;
+  margin-top: auto; /* Push product details to the bottom of the container */
+}
+
+/* New styles for quantity selector */
+.quantity-selector {
+  /* ... existing styles ... */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Adjust existing styles for quantity-input */
+.quantity-input {
+  /* ... existing styles ... */
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Adjust existing styles for quantity-btn */
+.quantity-btn {
+  /* ... existing styles ... */
+  margin: 0;
+}
+
+/* Adjust existing styles for addToCartForm */
+.addToCartForm {
+  /* ... existing styles ... */
+  margin-top: 10px;
+}
+
+/* Add this style to center pagination buttons */
+.pagination-btn {
+  margin: 10px;
+}
+
+#paginationInfo,
+#prevPage,
+#nextPage {
+  margin-left: 20px;
+}
+
+.cartButton {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+/* ... (your existing styles) ... */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.customer-profile,
+.purchase-history,
+.navigation-links {
+  margin-bottom: 20px;
+}
+
+.purchase-table {
+  overflow-x: auto; /* Enable horizontal scrolling for the table */
+  max-width: 100%;
+}
+
+.purchase-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.purchase-table th,
+.purchase-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.purchase-table th {
+  background-color: #001f3f;
+  color: #fff;
+}
+
+/* ... (your existing styles) ... */
+
+/* Add these styles to your styles.css file */
+
+.login-body {
+  font-family: 'Alegreya', serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  color: #001f3f; /* Navy */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-group {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  font-weight: bold;
+  color: #001f3f; /* Navy */
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-button {
+  cursor: pointer;
+  background-color: #001f3f; /* Navy */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.login-footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.login-link {
+  color: #001f3f; /* Navy */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Add these styles to your styles.css file */
+
+.registration-body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-h1,
+.login-h1 {
+  color: #001f3f; /* Navy */
+  text-align: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #001f3f; /* Navy */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.register-btn {
+  cursor: pointer;
+  background-color: #001f3f; /* Navy */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+a {
+  color: #001f3f; /* Navy */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.thanksmessage {
+  margin-top: 40px;
+}

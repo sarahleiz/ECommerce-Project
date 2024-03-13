@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Lightsaber",
+    "description": "Own a replica of the iconic Lightsaber, the elegant weapon used by Jedi knights in the Star Wars saga.",
+    "price": 100,
+    "stock": 10,
+    "link": "https://i.pinimg.com/564x/ba/7d/85/ba7d85775cf1a7bcf6f78670d660be19.jpg"
+  },
+  {
+    "name": "Blade Runner Origami Unicorn",
+    "description": "Capture the essence of Blade Runner with this replica of Deckard's mysterious origami unicorn, a key element in the film's symbolism.",
+    "price": 10,
+    "stock": 5,
+    "link": "https://i.redd.it/in-blade-runner-1982-a-unicorn-toy-can-be-seen-in-the-v0-kx1libastqna1.jpg?width=1200&format=pjpg&auto=webp&s=5f5ddb18ac4713aa908f92bda42dc68c3c0df425"
+  },
+  {
+    "name": "Asteroid City Meteorite",
+    "description": "Own a piece of Wes Anderson's whimsical universe with this replica of the Asteroid City Meteorite, a celestial artifact that adds a touch of extraterrestrial charm to your collection.",
+    "price": 50,
+    "stock": 8,
+    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSZi2fy8cjcLN6hkWmfpgYhypvAnmJ6DIjHe3ygasR7Tovl8gc7"
+  },
+  {
+    "name": "Flux Capacitor Replica",
+    "description": "Relive the time-traveling excitement of Back to the Future with this Flux Capacitor replica, the heart of the DeLorean's temporal adventures.",
+    "price": 70,
+    "stock": 3,
+    "link": "https://barnfinds.com/wp-content/uploads/2021/12/1981-DeLorean-Back-To-The-Future-5-630x390.jpg"
+  },
+  {
+    "name": "La La Land Jazz Piano Sheet Music",
+    "description": "Bring the magic of La La Land to your home with the official jazz piano sheet music, letting you play the romantic tunes from the film.",
+    "price": 15,
+    "stock": 15,
+    "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSBu7iaeFpFXthUcUFIMvDjStptrkNipoJAwE_SUsv_D9A0AVqf"
+  },
+  {
+    "name": "Ferris Bueller's Day Off Red Ferrari Model",
+    "description": "Recreate the iconic joyride from Ferris Bueller's Day Off with this detailed miniature replica of the red Ferrari.",
+    "price": 80,
+    "stock": 10,
+    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS--wSw_8ZiwvycXHfSR-tzyfI7vI2UPU32ZQMES9d9811gbVnp"
+  },
+  {
+    "name": "Oppenheimer's Atomic Bomb Blueprint",
+    "description": "Delve into history with this detailed blueprint of Oppenheimer's atomic bomb, a significant artifact from the era of groundbreaking scientific discoveries.",
+    "price": 30,
+    "stock": 2,
+    "link": "https://nuclearweaponarchive.org/Usa/Med/Fm100.gif"
+  },
+  {
+    "name": "Indiana Jones' Bullwhip",
+    "description": "Channel the adventurous spirit of Indiana Jones with this authentic replica of the hero's iconic bullwhip, a symbol of daring escapades.",
+    "price": 40,
+    "stock": 7,
+    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRJG44NKm0HCqkJ5uwLH5ii27e0xpJFzh-FxiCaYVwzg_6iQuDO"
+  },
+  {
+    "name": "Batarang",
+    "description": "Summon the Dark Knight's help with this iconic Batarang projector, straight from the world of Batman.",
+    "price": 45,
+    "stock": 5,
+    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRc6acyrV5vBjChvvoiAQcnm4qCTaalefLeCmQQviu8SzPhpwvd"
+  },
+  {
+    "name": "Fight Club Soap Replica",
+    "description": "Own a piece of Project Mayhem with this soap replica, embodying the rebellious spirit and clandestine nature of Fight Club.",
+    "price": 55,
+    "stock": 20,
+    "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSiPAl9des_lm_vYFgd44ZlfVgrbpAXIJRu_UB4qiauLHu5RGTt"
+  },
+  {
+    "name": "Pulp Fiction Briefcase",
+    "description": "Keep the mystery alive with this replica of the enigmatic Pulp Fiction briefcase, allowing you to carry your secrets in style.",
+    "price": 35,
+    "stock": 3,
+    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWLlqK61I_7wV_Emu9av7r6XmUmiV3mNu_8GKiAmWtcczYEF0U"
+  },
+  {
+    "name": "Barbie's Convertible Car",
+    "description": "Cruise in style with this miniature replica of Barbie's glamorous convertible car, embodying the epitome of fashion and elegance.",
+    "price": 300,
+    "stock": 12,
+    "link": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcREFCRlxqv6Q93bVy8CPryfQmN0N1BRh-bevDYQ9SBRc8Vy_MkU"
+  },
+  {
+    "name": "Alien Xenomorph Model",
+    "description": "Get up close and personal with the terror of Alien with this detailed model of the iconic Xenomorph, a must-have for sci-fi enthusiasts.",
+    "price": 65,
+    "stock": 4,
+    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaWkQxhXKSOfJkBDqiNlAGK1fYbfkqw_uFS-qE8Tyqxe80fEMQ"
+  },
+  {
+    "name": "Red and Blue Pills",
+    "description": "Step into the unknown with these mysterious Red and Blue Pills, inspired by the pivotal choice in The Matrix, where reality is just a decision away.",
+    "price": 20,
+    "stock": 4,
+    "link": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQugJaF63bJqtUxO-9gLETAINHGm4at7fe-c_lpflNV1iiJyHFz"
+  }
+]
